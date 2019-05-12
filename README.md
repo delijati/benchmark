@@ -35,6 +35,8 @@ $ wrk -d20s -t10 -c200 http://127.0.0.1:5000/
 
 ### For ASGI
 
+ATTENTION first undeploy the other app or you get an wired Zappa error
+
 Install run locally
 
 ```
@@ -70,6 +72,8 @@ Transfer/sec:      2.24MB
 ```
 
 ### WSGI
+
+ATTENTION first undeploy the other app or you get an wired Zappa error
 
 Install run locally
 
