@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "wsgi_app.zappa_init.app",
+        "aws_region": "eu-central-1",
+        "profile_name": "default",
+        "project_name": "wsgi-app",
+        "runtime": "python3.7",
+        "s3_bucket": "zappa-z36z99ror"
+    }
+}

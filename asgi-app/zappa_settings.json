@@ -1,0 +1,11 @@
+{
+    "dev": {
+        "app_function": "asgi_app.zappa_init.app",
+        "aws_region": "eu-central-1",
+        "profile_name": "default",
+        "project_name": "asgi-app",
+        "runtime": "python3.7",
+        "s3_bucket": "zappa-7e1o9a6zk",
+        "asgi": true
+    }
+}
